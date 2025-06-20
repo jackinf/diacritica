@@ -2,3 +2,4 @@ venv/
 sheets/
 build/
 dist/
+dmg_temp/

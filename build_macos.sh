@@ -1,4 +1,3 @@
-cat > build_macos.sh << 'EOF'
 #!/bin/bash
 
 echo "Building Excel Diacritics Remover for macOS..."
@@ -28,6 +27,3 @@ hdiutil create -volname "Excel Diacritics Remover" \
 rm -rf dmg_temp
 
 echo "Build complete! Check the dist folder for ExcelDiacriticsRemover.dmg"
-EOF
-
-chmod +x build_macos.sh
